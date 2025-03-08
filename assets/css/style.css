@@ -28,13 +28,13 @@ a:hover {
 --------------------------------------------------------------*/
 #main {
   margin-top: 60px;
-  padding: 5px;
+  padding:5px 5px 0px 5px;
   transition: all 0.3s;
 }
 
 @media (max-width: 1199px) {
   #main {
-    padding: 20px;
+    padding: 5px;
   }
 }
 
@@ -176,6 +176,67 @@ a:hover {
     margin-right: 0;
   }
 }
+
+/*--------------------------------------------------------------
+# left side bar design
+--------------------------------------------------------------*/
+.select-input-box-lavel{
+  font-size: 14px;
+}
+
+.select-input-box {
+  border: 0; 
+  border-bottom: 1px solid #0000004b;
+  padding: 5px; 
+  outline: none; 
+  width: 100%;
+  font-size: 16px;
+  color: #000000a9;
+}
+
+.natural-disasters{
+  padding-top: 50px;
+}
+
+.man-made-disasters{
+  padding-top: 20px;
+}
+
+
+.disaster-section p{
+  color: #000000a9;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.icon-group {
+  width: 100%;
+  display: flex; /* Aligns items in a row */
+  justify-content: space-between; /* Even spacing */
+  flex-wrap: wrap; /* Wraps to the next row if needed */
+}
+
+.icon-content {
+  width: 25%; /* Each icon takes 25% of the parent container */
+  text-align: center; /* Centers the text and image */
+  padding: 8px; /* Adds spacing */
+}
+
+.icon-img img {
+  height: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+span {
+  display: block;
+  margin-top: 5px;
+  color: #464141a9; 
+  font-size: 12px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
