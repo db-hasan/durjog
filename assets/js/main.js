@@ -38,29 +38,6 @@
     });
   }
 
-  document.querySelectorAll('.icon-content').forEach(button => {
-    button.addEventListener('click', function() {
-      document.querySelectorAll('.icon-content').forEach(btn => {
-        btn.classList.remove('active');
-        const img = btn.querySelector('img');
-        img.style.filter = 'grayscale(100%)'; // Reapply grayscale to all images
-        const span = btn.querySelector('span');
-        span.style.color = 'black'; // Reset text color to default
-      });
-  
-      // Add 'active' class to clicked button
-      this.classList.add('active');
-  
-      // Remove grayscale effect on the clicked button's image
-      const img = this.querySelector('img');
-      img.style.filter = 'none'; // Remove grayscale effect from image
-      
-      // Change the text color to the active color
-      const span = this.querySelector('span');
-      span.style.color = 'rgb(226, 31, 31)'; // Set active text color
-    });
-  });
   
   
-
 })();
