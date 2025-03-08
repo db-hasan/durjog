@@ -218,9 +218,32 @@ a:hover {
 }
 
 .icon-content {
-  width: 25%; /* Each icon takes 25% of the parent container */
-  text-align: center; /* Centers the text and image */
-  padding: 8px; /* Adds spacing */
+  width: 25%;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  border: 0px solid transparent; 
+  transition: all 0.3s ease;
+}
+
+.icon-content.active {
+  border: 0; 
+  color: rgb(226, 31, 31); 
+}
+
+.icon-content:focus {
+  outline: none; 
+  color: white; 
+}
+
+
+.icon-content {
+  width: 25%;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  border: 0px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .icon-img img {
@@ -231,8 +254,7 @@ a:hover {
 
 span {
   display: block;
-  margin-top: 5px;
-  color: #464141a9; 
+  color: #464141a9 !important; 
   font-size: 12px;
 }
 
