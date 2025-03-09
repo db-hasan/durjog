@@ -24,22 +24,22 @@ a:hover {
 
 
 /*--------------------------------------------------------------
-# Main
+# frontmainpage
 --------------------------------------------------------------*/
-#main {
+#frontmain {
   margin-top: 60px;
   padding:5px 5px 0px 5px;
   transition: all 0.3s;
 }
 
 @media (max-width: 1199px) {
-  #main {
+  #frontmain {
     padding: 5px;
   }
 }
 
 /*--------------------------------------------------------------
-# Header
+# frontheader
 --------------------------------------------------------------*/
 .logo {
   line-height: 1;
@@ -62,7 +62,7 @@ a:hover {
   color: #444444;
 }
 
-.header {
+.frontheader {
   transition: all 0.5s;
   z-index: 997;
   height: 60px;
@@ -71,9 +71,9 @@ a:hover {
 
 }
 
-/* Header styles */
-.header .toggle-sidebar-btn-left, 
-.header .toggle-sidebar-btn-right {
+/* frontheader styles */
+.frontheader .toggle-sidebar-btn-left, 
+.frontheader .toggle-sidebar-btn-right {
   font-size: 25px;
   padding: 15px;
   cursor: pointer;
@@ -81,13 +81,13 @@ a:hover {
 }
 
 /* Scrollbar styling */
-.sidebar::-webkit-scrollbar {
+.frontsidebar::-webkit-scrollbar {
   width: 5px;
   height: 8px;
   background-color: #fff;
 }
 
-.sidebar::-webkit-scrollbar-thumb {
+.frontsidebar::-webkit-scrollbar-thumb {
   background-color: #aab7cf;
 }
 
@@ -136,9 +136,9 @@ a:hover {
   }
 }
 
-/* Adjust main content */
+/* Adjust frontmain content */
 @media (min-width: 1200px) {
-  #main, #footer {
+  #frontmain, #footer {
     margin-left: 350px;
     margin-right: 300px;
   }
@@ -166,13 +166,13 @@ a:hover {
   }
 }
 
-/* Adjust main content when sidebars are toggled */
+/* Adjust frontmain content when sidebars are toggled */
 @media (min-width: 1200px) {
-  .toggle-sidebar-left #main {
+  .toggle-sidebar-left #frontmain {
     margin-left: 0;
   }
   
-  .toggle-sidebar-right #main {
+  .toggle-sidebar-right #frontmain {
     margin-right: 0;
   }
 }
@@ -252,7 +252,7 @@ a:hover {
   margin: 0 auto;
 }
 
-span {
+.icon-content span {
   display: block;
   color: #464141a9 !important; 
   font-size: 12px;
@@ -263,19 +263,19 @@ span {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.footer {
+.fontfooter {
   padding: 20px 0;
   font-size: 14px;
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
 }
 
-.footer .copyright {
+.fontfooter .copyright {
   text-align: center;
   color: #012970;
 }
 
-.footer .credits {
+.fontfooter .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
